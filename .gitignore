@@ -1,0 +1,6 @@
+packages/*
+GigHub/bin/*
+GigHub/o*
+GigHub/App_Data/aspnet-GigHub-20160602092429.mdf
+GigHub/App_Data/aspnet-GigHub-20160602092429_log.ldf
+.vs/*
