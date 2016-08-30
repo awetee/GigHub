@@ -222,6 +222,10 @@
     <Compile Include="Migrations\201608291333138_GigsIdToInt.Designer.cs">
       <DependentUpon>201608291333138_GigsIdToInt.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608302018245_AddeForeignKeysToGig.cs" />
+    <Compile Include="Migrations\201608302018245_AddeForeignKeysToGig.Designer.cs">
+      <DependentUpon>201608302018245_AddeForeignKeysToGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -321,6 +325,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608291333138_GigsIdToInt.resx">
       <DependentUpon>201608291333138_GigsIdToInt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608302018245_AddeForeignKeysToGig.resx">
+      <DependentUpon>201608302018245_AddeForeignKeysToGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
